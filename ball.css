@@ -34,7 +34,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  /* @keyframes a1 {
+  @keyframes a1 {
     0% {
       width: 0;
       height: 0;
@@ -48,20 +48,26 @@ body{
       box-shadow: inset 0 0 50px rgb(179, 179, 179);
     }
     100% {
-        width: 0%;
-        height: 0%;
-      opacity: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 1;
       box-shadow: inset 0 0 50px rgb(240, 236, 236);
       margin: 0; 
     }
-  }   */
+  }  
 
-  @keyframes a1 {
+  /* @keyframes a1 {
     0% {
       width: 0;
       height: 0;
       opacity: 0;
       box-shadow: inset 0 0 50px rgb(68, 68, 68);
+    }
+    99% {
+      width: 100%;
+      height: 100%;
+      opacity: 1;
+      box-shadow: inset 0 0 50px rgb(179, 179, 179);
     }
     100% {
       width: 100%;
@@ -69,7 +75,7 @@ body{
       opacity: 1;
       box-shadow: inset 0 0 50px rgb(179, 179, 179);
     }
-  }
+  } */
   @keyframes a2 {
 
     0% {
@@ -88,8 +94,7 @@ body{
   } 
 
 .loading span:nth-child(5){
-    content: '';
-    animation-delay: 4.65s ;
+    animation-delay: 1200ms ;
     max-width:500px;
       max-height: 500px;
       box-shadow: inset  10px -10px 25px rgba(0,0,0,0.6);
@@ -99,7 +104,7 @@ body{
       }
     
   .loading span:nth-child(4){
-    animation-delay: 5.5s ;
+    animation-delay: 2400ms ;
     max-width:400px;
       max-height: 400px;
       box-shadow: inset  10px -10px 25px rgba(0,0,0,0.6);
@@ -109,7 +114,7 @@ body{
 
   }
   .loading span:nth-child(3){
-    animation-delay: 6.5s ;
+    animation-delay: 3600ms ;
     max-width:300px;
       max-height: 300px;
       box-shadow: inset  10px -10px 25px rgba(0,0,0,0.6);
@@ -119,7 +124,7 @@ body{
 
   }
   .loading span:nth-child(2){
-    animation-delay: 7.25s ;
+    animation-delay: 4800ms ;
     max-width:200px;
     max-height: 200px;
     box-shadow: inset  10px -10px 25px rgba(0,0,0,0.6);
@@ -129,7 +134,7 @@ body{
 
   }
   .loading span:nth-child(1){
-    animation-delay:8.25s;
+    animation-delay:6s;
       max-width:100px;
       max-height: 100px;
       box-shadow: inset  10px -10px 25px rgba(0,0,0,0.6);
