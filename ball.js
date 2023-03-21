@@ -1,4 +1,5 @@
 let wave1 = document.getElementById("wave_1");
+// dumm
 let wave2 = document.getElementById("wave_2");
 let wave3 = document.getElementById("wave_3");
 let wave4 = document.getElementById("wave_4");
