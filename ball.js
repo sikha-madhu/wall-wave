@@ -24,11 +24,11 @@ setTimeout(()=>{
     // wave4.style.animation="a2  ease-in 3.5s";
     // wave5.style.animation="a2  ease-in 4s";
 
-    wave1.style.animation="a2  ease-out 2s";
-    wave2.style.animation="a2  ease-in 2.5s";
-    wave3.style.animation="a2  ease-in 3s";
-    wave4.style.animation="a2  ease-in 3.5s";
-    wave5.style.animation="a2  ease-in 5s";
+    wave1.style.animation="a2  ease-out 0s";
+    wave2.style.animation="a2  ease-in .5s";
+    wave3.style.animation="a2  ease-in 1s";
+    wave4.style.animation="a2  ease-in 1.5s";
+    wave5.style.animation="a2  ease-in 2s";
 
     // wave1.style.animation="a2  linear 2s";
     // wave2.style.animation="a2  linear 2.5s";
@@ -36,4 +36,4 @@ setTimeout(()=>{
     // wave4.style.animation="a2  linear 3.5s";
     // wave5.style.animation="a2  linear 4.7s";
 
-},6500)
+},3400)

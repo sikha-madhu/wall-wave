@@ -29,7 +29,7 @@ body{
     display:inline-block;
     border-radius: 50%;
     /* animation: a1 10s ease-out forwards; */
-    animation: a1 10s ease-out 0s forwards;
+    animation: a1 2s ease-out 0s forwards;
     opacity: 0;
     top: 50%;
     left: 50%;
@@ -95,35 +95,35 @@ body{
   } 
 
 .loading span:nth-child(5){
-    animation-delay: 1200ms ;
+    animation-delay: 2s ;
     max-width:500px;
       max-height: 500px;
       box-shadow: inset 10px 10px 20px #a5a7a9,inset -10px -10px 20px #fff;
       }
     
   .loading span:nth-child(4){
-    animation-delay: 2400ms ;
+    animation-delay: 2.5s ;
     max-width:400px;
       max-height: 400px;
       box-shadow: inset 10px 10px 20px #a5a7a9,inset -10px -10px 20px #fff;
 
   }
   .loading span:nth-child(3){
-    animation-delay: 3600ms ;
+    animation-delay: 3s ;
     max-width:300px;
       max-height: 300px;
       box-shadow: inset 10px 10px 20px #a5a7a9,inset -10px -10px 20px #fff;
 
   }
   .loading span:nth-child(2){
-    animation-delay: 4800ms ;
+    animation-delay: 3.5s ;
     max-width:200px;
     max-height: 200px;
     box-shadow: inset 10px 10px 20px #a5a7a9,inset -10px -10px 20px #fff;
 
   }
   .loading span:nth-child(1){
-    animation-delay:6s;
+    animation-delay:4s;
       max-width:100px;
       max-height: 100px;
       box-shadow: inset 10px 10px 20px #a5a7a9,inset -10px -10px 20px #fff;
@@ -180,14 +180,14 @@ body{
   
   .ball{
     position: absolute;
-    top:65%;
+    top:60%;
     width: 150px;
     height: 150px;
     background: radial-gradient(circle at 70px 75px, rgb(235, 232, 232),rgb(159, 155, 155));
     border-radius: 50%;
     transform: translateY(-10px);
     transform-style: preserve-3d;
-    animation: bounce 9.6s ease-in-out;
+    animation: bounce 4s ease-in-out;
     animation-iteration-count: 1;
     animation-fill-mode:forwards;
     box-shadow: rgba(242, 239, 239, 0.893) 0px 1px 2px 0px, rgba(242, 239, 239, 0.893) 0px 1px 3px 1px;
@@ -214,43 +214,43 @@ body{
       
     }
     82%{
-      transform: translateY(-100%) ;
+      transform: translateY(-100%)scale(0.90) ;
       background:radial-gradient(circle at 70px 75px, rgb(210, 209, 209),rgb(69, 68, 68));
 
      }
      84%{
-      transform: translateY(-100%) ;
+      transform: translateY(-100%) scale(0.82) ;
       background:radial-gradient(circle at 70px 75px, rgb(210, 209, 209),rgb(69, 68, 68));
 
      }
      86%{
-      transform: translateY(-100%) ;
+      transform: translateY(-100%) scale(0.74) ;
       background:radial-gradient(circle at 70px 75px, rgb(210, 209, 209),rgb(69, 68, 68));
 
      }
      88%{
-      transform: translateY(-100%) ;
+      transform: translateY(-100%) scale(0.66);
       background:radial-gradient(circle at 70px 75px, rgb(210, 209, 209),rgb(69, 68, 68));
 
      }
      90%{
-      transform: translateY(-100%) ;
+      transform: translateY(-100%) scale(0.58) ;
       background:radial-gradient(circle at 70px 75px, rgb(210, 209, 209),rgb(69, 68, 68));
 
      }
      94%{
-      transform: translateY(-100%) ;
+      transform: translateY(-100%) scale(0.5) ;
       background:radial-gradient(circle at 70px 75px, rgb(210, 209, 209),rgb(43, 42, 42));
 
      }
      97%{
-      transform: translateY(-100%) ;
+      transform: translateY(-100%) scale(0.4) ;
       background:radial-gradient(circle at 70px 75px, rgb(168, 168, 168),rgb(34, 34, 34));
 
      }
 
   99%{
-   transform: translateY(-100%) scale(0.1);
+   transform: translateY(-100%) scale(0.3);
 
    background:radial-gradient(circle at 70px 75px, rgb(166, 166, 166),rgb(29, 29, 29));
 
